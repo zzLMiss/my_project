@@ -1,0 +1,63 @@
+.banner{
+    width: 1140px;
+}
+.font_div p{
+    text-indent: 2em;
+    line-height: 200%;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #222222;
+    text-align: left;
+}
+.gy_div{
+    margin-right: 400px;
+}
+.love_p{
+    width: 400px;
+}
+.love_p i{
+    width: 2px;
+    height: 30px;
+    background: #eaeaea;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: -18px;
+}
+
+.love_p span{
+    margin:0 15px;
+    width: 96px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.span_bot{
+    border-bottom: 2px solid #07bd54;
+    color: #07bd54;
+}
+.love_content01 li{
+    margin-top: 20px;
+}
+.love_content01 li img{
+    width: 100px;
+}
+.love_content01 li p{
+    width: 1000px;
+    text-indent: 2em;
+    margin-top: 20px;
+    line-height: 200%;
+}
+.love_content01 li p span{
+    color:#ff2d2d;
+}
+.love_content02 li p span{
+    color:#ff2d2d;
+}
+.love_content02 li{
+    line-height: 53px;
+    font-size: 14px;
+    font-family: "????";
+    border-bottom: 1px solid #eaeaea;
+}

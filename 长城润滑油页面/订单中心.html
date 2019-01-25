@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>订单中心</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/ddcenter.css">
+    <link rel="stylesheet" href="css/orderEnd.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="img/ccico.ico" type="image/x-icon"/>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/Calendar.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="headerTop">
+            <ul class="font_st w1200">
+                <li><a href="javascript:0;" class="color0066CC">Hi,ROOT001</a></li>
+                <li>目前积分：<span class="color0066CC">7864</span></li>
+                <li><a href="javascript:0;">退出</a></li>
+                <li><a href="javascript:0;">修改密码</a></li>
+                <li><a href="javascript:0;" class="color0066CC">返回活动选择页</a></li>
+            </ul>
+        </div>
+        <div class="headerBou w1200">
+            <img class="logo" src="img/balance/serveDh.png" alt="" width="381" height="71">
+            <div class="fr searchDiv">
+                <form action="" class="searchDiv_form">
+                    <input class="keyword_lf fl bor_none" type="text" value="输入关键字">
+                    <input class="keyword_ri fr curaor_pointer bor_none" type="submit" title="搜索" value="">
+                </form>
+                <ul class="keyword_word">
+                    <li>热搜关键词：</li>
+                    <li><a href="javascript:0">金吉星机油</a></li>
+                    <li><a href="javascript:0">工作手套</a></li>
+                    <li><a href="javascript:0">POLO衫</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="headerMeu">
+            <div class="w1200">
+                <div class="pinDao">
+                    <p class="city_p">
+                        <img src="img/balance/frequeL1.png" alt="" width="29" height="21">
+                        <a href="javascript:0">城频道分类</a>
+                    </p>
+                    <ul class="channelMall">
+                        <li>
+                            <img src="img/balance/frequeL2.png" alt="">
+                            <a href="javascript:0">家居生活</a>
+                            <span class="ml_10 colorFff">></span>
+                        </li>
+                        <li>
+                            <img src="img/balance/frequeL3.png" alt="">
+                            <a href="javascript:0">汽车养护</a>
+                            <span class="ml_10 colorFff">></span>
+                        </li>
+                        <li>
+                            <img src="img/balance/frequeL4.png" alt="">
+                            <a href="javascript:0">我要服务</a>
+                            <span class="ml_10 colorFff">></span>
+                        </li>
+                        <li class="ts tc pa">
+                            <img src="img/balance/doubleR.png" width="31" height="38" alt="">
+                            <a href="javascript:0">分公司查询登陆</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="headerMeu_ul">
+                    <li>
+                        <img src="img/balance/indMenuBg.png" alt="">
+                        <a href="javascript:0">首页</a>
+                    </li>
+                    <li><a href="javascript:0">活动机制</a></li>
+                    <li><a href="javascript:0">下单流程</a></li>
+                    <li><a href="javascript:0">质保机制</a></li>
+                    <li><a href="javascript:0">服务中心</a></li>
+                    <li><a href="javascript:0">订单中心</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <!-- content -->
+    <div class="content w1200">
+        <p class="navCrumbs_p">您当前的位置：<a href="javascript:0"></a> 首页 > 购物车</p>
+        <p class="conBanner"><img src="img/orderEnd/conBanner.png" alt=""></p>
+        <h3 class="table_name colorFff f16 font_fam tc mt15">产品列表</h3>
+        <div class="commodity mt10 pb20">
+            <div class="mt15 ml15 ovhidden">
+                <form class="ddSs fl" action="">
+                    <input class="bor_none pl5  font_st" type="text" name="" id="" value="输入商品名称或订单号进行搜索">
+                </form>
+                <form class="ddRq fl ml30" action="">
+                    <label class="f14 fl" for="">成交时间：</label>
+                    <input class="cjData" type="text" size="10" maxlength="10" onClick="new Calendar().show(this);" readonly>
+                    <label class="mr5 ml5" for="">到</label>
+                    <input class="cjData mr30" type="text" size="10" maxlength="10" onClick="new Calendar().show(this);" readonly>
+                    <img src="img/butccQuery.jpg" alt="">
+                </form>
+            </div>
+            <ul class="cartTable_tit mt20">
+                <li>商品名称</li>
+                <li>积分</li>
+                <li>数量</li>
+                <li>小计</li>
+                <li>规则备注</li>
+                <li>操作</li>
+            </ul>
+            <table class="cartTable mt25">
+                <tr>
+                    <td colspan="6" class="ddBh_sp">
+                        <p class="fl f14 pl30">2015-03-27 <span class="ml50">订单号：025625562566962332</span></p>
+                        <a class="qZf fr f16 font_fam colorfff mr10" href="">去支付</a>
+                    </td>
+                </tr>
+                <tr class="sp" id="">
+                    <td class="pb15 pt15 f14"> 
+                        <a class="curaor_pointer fl ml15" href="javascript:0">
+                            <img src="img/shop_cart/products3.png" alt="" width="90" height="90">
+                        </a>
+                        <span class="descriPtion_span font_fam color666 ml10 f14 fl">泊尔双胆正品</span>
+                    </td>
+                    <td class="tc f14">52.00</td>
+                    <td class="tc sl">
+                        <p class="f16 tc">1</p>
+                    </td>
+                    <td class="tc f14">52.00积分</td> 
+                    <td class="tc f14">5L白色</td>
+                    <td class="tc f14" ><span>待发货,未支付 </span></td>
+                </tr>
+                <tr class="sp" id="">
+                    <td class="pb15 pt15 f14"> 
+                        <a class="curaor_pointer fl ml15" href="javascript:0">
+                            <img src="img/index/products4.png" alt="" width="90" height="90">
+                        </a>
+                        <span class="descriPtion_span font_fam color666 ml10 f14 fl">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100 </span>
+                    </td>
+                    <td class="tc f14">1299.00</td>
+                    <td class="tc sl">
+                        <p class="f16 tc">1</p>
+                    </td>
+                    <td class="tc f14">1299.00积分</td> 
+                    <td class="tc f14">直径28cm 、黑色</td>
+                    <td class="tc f14" ><span>待发货,未支付 </span></td>
+                </tr>
+            </table>
+            <table class="cartTable mt25">
+                <tr>
+                    <td colspan="6" class="ddBh_sp">
+                        <p class="fl f14 pl30">2015-03-27 <span class="ml50">订单号：025625562566962332</span></p>
+                        <a class="qZf fr f16 font_fam colorfff mr10" href="">去支付</a>
+                    </td>
+                </tr>
+                <tr class="sp" id="">
+                    <td class="pb15 pt15 f14"> 
+                        <a class="curaor_pointer fl ml15" href="javascript:0">
+                            <img src="img/shop_cart/products7.png" alt="" width="90" height="90">
+                        </a>
+                        <span class="descriPtion_span font_fam color666 ml10 f14 fl">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100</span>
+                    </td>
+                    <td class="tc f14">98.00</td>
+                    <td class="tc sl">
+                        <p class="f16 tc">1</p>
+                    </td>
+                    <td class="tc f14">98.00积分</td> 
+                    <td class="tc f14">5L白色</td>
+                    <td class="tc f14" ><span>已发货</span></td>
+                </tr>
+            </table>
+        </div>
+         <!-- 分页 -->
+         <div class="Page_div f14 mt40 mr20 font_fam mb30 fr">
+            <div class="pageYs fl mr30">
+                <a class="pageS" href="" title="上一页"><上一页</a>
+                <a class="pageFirst" href="">1</a>
+                <a href="">2</a>
+                <span class="fl mr15 ml10">...</span>
+                <a href="">27</a>
+                <a href="">28</a>
+                <a href="">29</a>
+                <a href="" title="下一页">下一页></a>
+                <span class="ml20">共<strong>29</strong>页</span>
+            </div>
+            <form class="find_page fl" action="">
+                <label class="fl" for="">到第</label>
+                <input class="fl xuZe" type="text" onkeyup="value=value.replace(/[^\d]/g,'')">
+                <label class="fl" for="">页</label>
+                <input class="fl anNsub" type="text" value="确定">
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer tc">
+        <div class="footer_bg">
+            <img src="img/foorterImg.jpg" alt="" width="850" height="135">
+        </div>
+        <div class="footer_nav tc">
+            <ul>
+                <li><a href="#">订单帮助</a></li>
+                <li><a href="#">礼品售后</a></li>
+                <li><a href="#">投诉说明</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">友情链接</a></li>                                                                                      
+            </ul>
+            <p class="footer_xz">版权所有&nbsp;&nbsp;沪ICP备12038387号</p>
+        </div>
+    </div>
+    
+</body>
+</html>

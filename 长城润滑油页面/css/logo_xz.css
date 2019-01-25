@@ -1,0 +1,38 @@
+.content_t{
+    min-height: 515px;
+    background: url(../img/logo_xuze/loginChoice_con.png) no-repeat top center;
+}
+.content_t .titleH2{
+    width: 778px;
+    height: 60px;
+    background: url(../img/logo_xuze/logtitleH2.png) no-repeat;
+}
+.choiceAn{
+    width: 778px;
+}
+.choiceAn div {
+    width: 352px;
+}
+.choiceAn div a {
+    width: 350px;
+    height: 72px;
+    line-height: 72px;
+}
+.choiceAn div a:hover{
+    text-decoration: none;
+}
+.activityRed{
+    background: url(../img/logo_xuze/activityLanred.png) no-repeat;
+}
+.activityRed:hover{
+    background: url(../img/logo_xuze/activityLanredhover.png) no-repeat;
+}
+.activityLan{
+    background: url(../img/logo_xuze/activityLanhover.png) no-repeat;
+}
+.activityLan:hover{
+    background: url(../img/logo_xuze/activityLan.png) no-repeat;
+}
+.activityhui{
+    background: url(../img/logo_xuze/activityHui.png) no-repeat;
+}

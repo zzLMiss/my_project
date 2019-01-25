@@ -1,0 +1,40 @@
+.header_top{
+    line-height: 35px;
+    height: 35px;
+}
+.header_bot {
+    height: 85px;
+    line-height: 84px;
+    background-color: #07BD54;
+}
+.header_bot .logo_b{
+    margin-right: 60px;
+}
+.header_bot .nav li{
+    float: left;
+}
+.header_bot ul li a{
+    float: left;
+    width: 104px;
+    line-height: 85px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.header_bot ul li a:hover{
+    text-decoration: none;
+}
+.nav_search {
+    border-radius: 15px;
+    width: 190px;
+    height: 34px;
+    margin-top: 24px;
+}
+.suoK {
+    width: 130px;
+    height: 34px;
+}
+
+
+

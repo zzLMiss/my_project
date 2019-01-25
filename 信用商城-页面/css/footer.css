@@ -1,0 +1,268 @@
+footer{
+    height: 148px;
+    width: 1200px;
+    background: url(../images/footer_b.png) no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+.footer_content{
+    width: 846px;
+    margin: 0 auto;
+    padding-top: 22px;
+}
+.footer_content img{
+    float: left;
+}
+.footer_content ul{
+    float: left;
+    margin-left: 97px;
+    margin-bottom: 24px;
+}
+.footer_content ul li{
+    margin-right: 82px;
+    color: #fff;
+    float: left;
+}
+.footer_content ul li p:nth-child(1){
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.footer_content ul li p:nth-child(2){
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+.footer_content ul li:last-child{
+    margin-right: 0;
+}
+.footer_xz{
+    clear: both;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* swiper */
+.hot_shop{
+    height: 40px;
+    background:#07bd54; 
+    color: #fff;
+    line-height: 40px;
+}
+.swiper_div{
+    padding: 40px 90px;
+    border: 1px solid #f0f0f0;
+}
+..swiper_photo{
+    width: 222px;
+}
+.swiper_photo img{
+    width: 222px;
+    height: 222px;
+}
+.good_price{
+    color: #ff4d4d;
+    margin-left: 20px;
+}
+/* bg */
+.cc_bg{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 10;
+}
+/*tan Kuang  */
+.tk_share{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 208px;
+    margin: -135px 0 0 -250px;
+    background: #fff;
+    z-index: 100;
+}
+.tk_title{
+    height: 45px;
+    line-height: 45px;
+    text-indent: 15px;
+    background: #eee;
+}
+.close{
+    position: absolute;
+    right: 7px;
+    top: 10px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../images/dialog-close.png) no-repeat;
+}
+.tk_contentR{
+    width: 280px;
+}
+.tk_conR a{
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../images/css-bg.png) no-repeat;
+}
+.tk_conR a.weiXin{
+    background-position: -11px -8px !important;
+}
+.tk_conR a.xinLang{
+    background-position: -57px -8px !important;
+}
+.tk_conR a.friend{
+    background-position: -101px -8px !important;
+}
+.tk_conR a.QQkj{
+    background-position: -146px -8px !important;
+}
+.XG_address{
+    width: 730px;
+    height: 320px;
+    background: #fff;
+    border: solid 1px #D6B8B8;
+    border-radius: 5px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+    display: none;
+}
+.xiuGai{
+    height: 40px;
+    line-height: 40px;
+    color: #7b6e6e;
+    border-bottom: 1px solid #D6B8B8;
+}
+.xiuGai_div{
+    height: 25px;
+    line-height: 25px;
+}
+.xiuGai_div label{
+    width: 100px;
+}
+.xiuGai_div input{
+    border: solid 1px #DCD4D4;
+    height: 23px;
+    line-height: 25px;
+}
+.put_SHR{
+    width: 160px;
+}
+.xiuGai_teShu{
+    color: #F40000;
+    line-height: 28px;
+    display: none;
+}
+.selectXZ{
+    margin-top: 3px;
+    height: 22px;
+    line-height: 22px;
+}
+.strAddress{
+    width: 325px;
+}
+.YzBM{
+    width: 120px;
+}
+.gD_phone{
+    width: 140px !important;
+    text-align: right;
+}
+.Mr_Addres{
+    padding-left: 80px;
+}
+.Mr_Addres input{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+}
+.tj{
+    padding-left: 92px;
+}
+.tj input{
+    width: 65px;
+    height: 20px;
+    border: 1px solid #AAA3A3;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+.offSshpan {
+    top: 3px;
+    right: 15px;
+}
+/* ?????? */
+.mark{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .4;
+    display: none;
+}
+.tk_share{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 208px;
+    margin: -135px 0 0 -250px;
+    background: #fff;
+}
+.tk_title{
+    height: 45px;
+    line-height: 45px;
+    text-indent: 15px;
+    background: #eee;
+}
+.close{
+    position: absolute;
+    right: 7px;
+    top: 10px;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../images/dialog-close.png) no-repeat;
+}
+.tk_contentR{
+    width: 280px;
+}
+.tk_conR a{
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+    display: inline-block;
+    cursor: pointer;
+    background: url(../images/css-bg.png) no-repeat;
+}
+.tk_conR a.weiXin{
+    background-position: -11px -8px !important;
+}
+.tk_conR a.xinLang{
+    background-position: -57px -8px !important;
+}
+.tk_conR a.friend{
+    background-position: -101px -8px !important;
+}
+.tk_conR a.QQkj{
+    background-position: -146px -8px !important;
+}

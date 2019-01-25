@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="images/ccico.ico" type="images/x-icon"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/shop_cart.js"></script>
+    <script src="js/swiper.min.js"></script>
+</head>
+<body>
+    <div class="w1200 mAuto">
+        <header>
+            <div class="header_top">
+                <p class="fl font_ht">扶贫县：【<span class="colorF93D5C">广西省贺州市昭平县</span>】</p>
+                <p class="fr font_ht">
+                    <a class="colorF93D5C fl mr15" href="login.html">您好！请登录</a>
+                    <a class="fl mr15" href="register.html">注册</a>
+                    <a class="fl" href="user_center.html">用户中心</a>
+                </p>
+            </div>
+            <div class="header_bot pl35 pr35">
+                <a class="logo_b fl" href=""><img src="images/shop/index_logo.png" alt=""></a>
+                <ul class="nav fl">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="TSfeatured_products.html">特色产品</a></li>
+                    <li><a href="FPrelief_project.html">扶贫项目</a></li>
+                    <li><a href="shop_cart.html">购物车</a></li>
+                    <li><a href="LXcontact_us.html">联系我们</a></li>
+                </ul>
+                <div class="nav_search ml40 fl backgroundFFFFFF">
+                    <input class="suoK fl ml15 bor_none" type="text" placeholder="请输入产品名称">
+                </div>
+                <img class="fl mt25 ml40" src="images/shop/index_tel.png" alt="">
+            </div>
+        </header>
+        <div class="pl35 pr35">
+            <p class="pt15 pb15 f14 font_ht">当前位置: <a href="index.html">首页</a> > <a>我的</a> > <a>购物车</a></p>
+            <table class="shopCart">
+                <thead class="shopCart_hed">
+                    <tr>
+                        <th class="shopCart_th" width="388" height="45">
+                            <div class="selectAll fl">
+                                <i class="qx cart_inp"></i>
+                                <input type="checkbox" class="check_qx" name="" id="">
+                                <label for="">全选</label>
+                            </div>
+                            <span class="fl">商品名称</span>
+                        </th>
+                        <th width="128">规格</th>
+                        <th width="79">单价</th>
+                        <th width="180">数量</th>
+                        <th width="76">小计</th>
+                        <th width="185">公益金额</th>
+                        <th width="76">操作</th>
+                    </tr>
+                    <tr height="30" colspan="7"></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="shopCart_td pb35 pt35">
+                            <span class="selectAll fl mt35">
+                                <i class="dx cart_inp"></i>
+                                <input type="checkbox" class="check" name="" id="">
+                            </span> 
+                            <a class="ml25" href=""><img src="images/shop/xy_cart_pic1.png" alt=""></a>
+                            <span class="xy_cart_descr mr20 f14">有机绿茶2018新茶明前春茶广西昭平高山云雾茶250g</span>
+                        </td>
+                        <td>250G</td>
+                        <td>￥<em class="price">69.00</em></td>
+                        <td>
+                            <div class="cartNum ml40">
+                                <span class="reduce curaor_pointer inpNumber dis_inlin_biock"><i>-</i></span>
+                                <input class="textNum f14 cc_digital tc bor_none" type="text" value="1" maxlength="3">
+                                <span class="add curaor_pointer inpNumber dis_inlin_biock"><i>+</i></span>
+                            </div>
+                        </td>
+                        <td class="colorF93D5C">￥<em class="xj">69.00</em></td>
+                        <td>￥<em class="Good_amount">6.90</em></td>
+                        <td><span class="delOne curaor_pointer">删除</span></td>
+                    </tr>
+                    <tr>
+                        <td class="shopCart_td pb35 pt35">
+                            <span class="selectAll fl mt35">
+                                <i class="dx cart_inp"></i>
+                                <input type="checkbox" class="check" name="" id="">
+                            </span> 
+                            <a class="ml25" href=""><img src="images/shop/xy_cart_pic1.png" alt=""></a>
+                            <span class="xy_cart_descr mr20 f14">有机绿茶2018新茶明前春茶广西昭平高山云雾茶250g</span>
+                        </td>
+                        <td>250G</td>
+                        <td>￥<em class="price">695.50</em></td>
+                        <td>
+                            <div class="cartNum ml40">
+                                <span class="reduce curaor_pointer inpNumber dis_inlin_biock"><i>-</i></span>
+                                <input class="textNum f14 cc_digital tc bor_none" type="text" value="1" maxlength="3">
+                                <span class="add curaor_pointer inpNumber dis_inlin_biock"><i>+</i></span>
+                            </div>
+                        </td>
+                        <td class="colorF93D5C">￥<em class="xj">695.50</em></td>
+                        <td>￥<em class="Good_amount">69.55</em></td>
+                        <td><span class="delOne curaor_pointer">删除</span></td>
+                    </tr>
+                    <tr>
+                        <td class="shopCart_td pb35 pt35">
+                            <span class="selectAll fl mt35">
+                                <i class="dx cart_inp"></i>
+                                <input type="checkbox" class="check" name="" id="">
+                            </span> 
+                            <a class="ml25" href=""><img src="images/shop/xy_cart_pic1.png" alt=""></a>
+                            <span class="xy_cart_descr mr20 f14">有机绿茶2018新茶明前春茶广西昭平高山云雾茶250g</span>
+                        </td>
+                        <td>250G</td>
+                        <td>￥<em class="price">695.50</em></td>
+                        <td>
+                            <div class="cartNum ml40">
+                                <span class="reduce curaor_pointer inpNumber dis_inlin_biock"><i>-</i></span>
+                                <input class="textNum f14 cc_digital tc bor_none" type="text" value="1" maxlength="3">
+                                <span class="add curaor_pointer inpNumber dis_inlin_biock"><i>+</i></span>
+                            </div>
+                        </td>
+                        <td class="colorF93D5C">￥<em class="xj">695.00</em></td>
+                        <td>￥<em class="Good_amount">69.50</em></td>
+                        <td><span class="delOne curaor_pointer">删除</span></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="shopCart_td pt25">
+                            <span class="selectAll fl mt5">
+                                <i class="qx cart_inp"></i>
+                                <input type="checkbox" class="check_qx" name="" id="">
+                                <label for="">已选</label>
+                            </span>
+                            <span class="batch_Delete ml50 texe_deon curaor_pointer" href=""><i class="del_ico"></i>批量删除</span>
+                        </td>
+                        <td colspan="6">
+                            <p class="tj_sumbit fr f18 tc curaor_pointer">提交订单</p>
+                            <div class="fr tr mt25 mr30  font_yh">
+                                <p class="f18 colorred">合计:￥<span class="total">0</span></p>
+                                <p class="f14">您将要捐献的公益金为:￥<span class="good_z">0</span></p>
+                            </div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="emptyContent clearfix mt10 bra5 dis_none">
+                <div class="divEmpty ovhidden margin_auto">
+                    <img class="fl" src="images/shop/gwc_Kong.png" width="100" height="83" alt="">
+                    <div class="emptyXiang_div fl font_fam ml30 mt15">
+                        <p class="f20">您购物车暂时没有商品，您可以：</p>
+                        <a class="dis_biock tc mt10" href="">回到首页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 热销扶贫商品 -->
+         <h3 class="hot_shop pl30 font_yh mt40">热销扶贫商品</h3>
+         <!-- 轮播 -->
+         <!-- Swiper -->
+         <div class="swiper_div pr">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swiper_photo">
+                            <img src="images/shop/goodsimg.jpg" alt="">
+                            <p class="pt15 f14 font_yh"><a href="#">广西省昭平县 昭平红茶 春茶</a></p>
+                            <p class="good_price f18 pt5">公益价：￥99.00</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_photo">
+                            <img src="images/shop/goodsimg.jpg" alt="">
+                            <p class="pt15 f14 font_yh"><a href="#">广西省昭平县 昭平红茶 春茶</a></p>
+                            <p class="good_price f18 pt5">公益价：￥99.00</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_photo">
+                            <img src="images/shop/goodsimg.jpg" alt="">
+                            <p class="pt15 f14 font_yh"><a href="#">广西省昭平县 昭平红茶 春茶</a></p>
+                            <p class="good_price f18 pt5">公益价：￥99.00</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_photo">
+                            <img src="images/shop/goodsimg.jpg" alt="">
+                            <p class="pt15 f14 font_yh"><a href="#">广西省昭平县 昭平红茶 春茶</a></p>
+                            <p class="good_price f18 pt5">公益价：￥99.00</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper_photo">
+                            <img src="images/shop/goodsimg.jpg" alt="">
+                            <p class="pt15 f14 font_yh"><a href="#">广西省昭平县 昭平红茶 春茶</a></p>
+                            <p class="good_price f18 pt5">公益价：￥99.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+         </div>
+       
+    </div>
+    <footer>
+        <div class="footer_content">
+            <img src="images/footer_logo.png" alt="">
+            <ul>
+                <li>
+                    <p>售后保障</p>
+                    <p>退换货流程</p>
+                    <p>售后服务承诺及政策</p>
+                </li>
+                <li>
+                    <p>关于我们</p>
+                    <p>公司信息 </p>
+                    <p>联系我们</p>
+                </li>
+                <li>
+                    <p>扶贫认证</p>
+                    <p>二维码</p>
+                </li>
+                <li>
+                    <img src="images/ewm.png" alt="">
+                </li>
+            </ul>
+            <p class="footer_xz">版权所有：上海市社会信用促进中心 2017 沪 ICP 备：17053360 号</p>
+        </div>
+    </footer>
+</body>
+</html>

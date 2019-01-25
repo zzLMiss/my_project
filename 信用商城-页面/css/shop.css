@@ -1,0 +1,125 @@
+.shopCart_th{
+    padding-left: 17px;
+    text-align: left;
+    font-size: 14px;
+    font-family: '黑体';  
+}
+th{
+    background: #f6f6f6;
+    text-align: center;
+}
+.default_inp,.cart_inp {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    background: #fff url(../images/shop/xy_cart_check.png) no-repeat;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.select_inp {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    vertical-align: middle;
+    background: #fff url(../images/shop/xy_cart_check_active.png) no-repeat;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.shopCart_th .selectAll{
+    margin-right: 180px;
+}
+.check,.check_qx{
+    display: none
+}
+.shopCart tbody {
+    border: 1px solid #ccc;
+}
+.shopCart .shopCart_td {
+    padding-left: 17px;
+    text-align: left;
+    font-size: 12px;
+    font-family: '黑体';
+    color: #000;
+}
+.shopCart tbody td {
+    text-align: center;
+    border-bottom: 1px dashed #ccc;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(204, 204, 204);
+}
+.shopCart .shopCart_td .xy_cart_descr {
+    width: 195px;
+    height: 88px;
+    float: right;
+    line-height: 160%;
+    overflow: hidden;
+    color: #666;
+}
+.inpNumber {
+    width: 25px;
+    height: 25px;
+    line-height: 15px;
+    border: 1px solid #d9d9d9;
+    background-color: #f7f7f7;
+    float: left;
+}
+.inpNumber i{
+    display: block;
+    width: 9px;
+    height: 9px;
+    margin: 8px;
+    color: #666;
+    font-size: 20px;
+    margin-top: 6px;
+}
+.cc_digital {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    width: 36px;
+    height: 25px;
+    padding: 0px 5px;
+    line-height: 17px;
+    float: left;
+    color: #565656;
+}
+.shopCart .batch_Delete {
+    display: inline-block;
+    background: #f6f6f6;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+.shopCart .batch_Delete .del_ico {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: url(../images/shop/batch_delete.png) no-repeat;
+    margin: -2px 15px 0 0;
+    cursor: pointer;
+}
+.tj_sumbit{
+    color: #fff;
+    width: 138px;
+    height: 43px;
+    line-height: 43px;
+    background: #ff2b2b;
+    margin-top: 23px;
+}
+
+/* shop ???? */
+.emptyContent {
+    border: 5px solid #F0F0F0;
+    padding: 40px 0 60px;
+}
+.divEmpty{
+    width: 435px;
+}
+.emptyXiang_div a{
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    background: #FF961A;
+    color: #fff;
+}

@@ -1,0 +1,164 @@
+/* 支付成功 */
+.success{
+    width: 1140px;
+    border: 1px solid #eeeeee;
+}
+.success_cont{
+    width: 605px;
+}
+.successCont01_div{
+    width: 400px;
+}
+.successThank_p{
+    width: 558px;
+}
+.successLove_div{
+    width: 337px;
+}
+.successShare_a{
+    bottom: 0;
+}
+.successShare_a:hover{
+    text-decoration: none;
+}
+/* 支付方式 */
+.way_title{
+    background: #eeeeee;
+    line-height: 50px;
+}
+.way_ul li{
+    float: left;
+    margin-right: 50px;
+}
+.way_ul{
+    border: 1px solid #eeeeee;
+}
+.way_ul li i{
+    width: 20px;
+    height: 20px;
+    background:#fff url(../images/ddqr/way_icon04.png) no-repeat;
+    vertical-align: middle;
+}
+.way_ul li i.way_active{
+    background:#fff url(../images/ddqr/way_icon04_active.png) no-repeat;
+}
+.way_zf{
+    width: 140px;
+    line-height: 50px;
+}
+.way_zf:hover{
+    text-decoration: none;
+}
+/* 订单详情 */
+.ddXq_div .ddXqXX p{
+    line-height: 180%;
+}
+.ddXq_spTitle span{
+    margin-right: 200px;
+}
+.ddXq_spTitle span:last-child{
+    margin-right: 0px;
+}
+.ddXq_spUl{
+    border: 1px solid #eeeeee;
+}
+.ddXq_spUl li{
+    float: left;
+}
+.ddXqSp_name{
+    width: 215px;
+    margin-right: 75px;
+}
+.ddXq_addJ{
+    margin-left: 110px;
+    margin-right: 140px;
+}
+/* 信用评级 */
+.evaluate_title{
+    background: #eeeeee;
+    line-height: 50px;
+}
+.evaluate_cont{
+    width:846px; 
+}
+.evaluate_cont li{
+    margin-bottom: 30px;
+}
+.evaluate_cont li i{
+    cursor: pointer;
+    vertical-align: middle;
+    width: 27px;
+    height: 25px;
+    background: url(../images/ddqr/way_icon06.png) no-repeat;
+    margin-right: 20px;
+}
+.evaluate_cont li i.evaluate_xActive{
+    background: url(../images/ddqr/way_icon06_active.png) no-repeat;
+}
+.spPj_put{
+    width: 300px;
+    height: 120px;
+    background: #eeeeee;
+    border: none;
+}
+.evaluate_tj i{
+    vertical-align: middle;
+    width: 20px;
+    height: 20px; 
+    background: url(../images/shop/xy_cart_check.png) no-repeat;
+}
+.evaluate_tj i.evaluate_active{
+    background: url(../images/shop/xy_cart_check_active.png) no-repeat;
+}
+.evaluate_submit{
+    width: 140px;
+    line-height: 50px;
+}
+.evaluate_submit:hover{
+    text-decoration: none;
+}
+/* 订单确认 */
+.affirm .affirm_address li{
+    float: left;
+    margin-right: 20px;
+    width: 360px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #eeeeee;
+}
+.affirm .affirm_address li:last-child{
+    margin-right: 0px;
+    border: 1px dashed #eeeeee;
+    line-height: 190px;
+}
+.affirm .affirm_address li .tw{
+    z-index: 2;
+    width: 100%;
+    height: 15px;
+    background: url(../images/ddqr/way_icon08_tw.png) no-repeat;
+}
+.affirmShr_p a{
+    margin-right: 40px;
+}
+.affirm_hj{
+    width: 100%;
+    background: #eeeeee;
+}
+.affirm_hj i{
+    vertical-align: middle;
+    width: 17px;
+    height: 17px; 
+    background:#fff url(../images/shop/xy_cart_check.png) no-repeat center;
+    background-size: 100%;
+}
+.affirm_hj i.affirm_active{
+    background:#fff url(../images/shop/xy_cart_check_active.png) no-repeat;
+}
+.go_money{
+    width: 100px;
+    line-height: 30px;
+}
+.go_money:hover{
+    text-decoration: none;
+}
+

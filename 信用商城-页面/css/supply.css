@@ -1,0 +1,21 @@
+.gxs_province{
+    background: url(../images/supply/yd_01.png) no-repeat center;
+}
+.gxs_content{
+    width: 990px;
+    line-height: 200%;
+}
+.certificate_div{
+    width: 1055px;
+}
+.bg_xx{
+    margin-top: 15px;
+}
+.bg_xx i{
+    vertical-align: middle;
+    margin-top: -3px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/supply/lv_icon.png) no-repeat center;
+}
+

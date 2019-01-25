@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="shortcut icon" href="img/ccico.ico" type="image/x-icon"/>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/cart.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="headerTop">
+            <ul class="font_st w1200">
+                <li><a href="javascript:0;" class="color0066CC">Hi,ROOT001</a></li>
+                <li>目前积分：<span class="color0066CC">7864</span></li>
+                <li><a href="javascript:0;">退出</a></li>
+                <li><a href="javascript:0;">修改密码</a></li>
+                <li><a href="javascript:0;" class="color0066CC">返回活动选择页</a></li>
+            </ul>
+        </div>
+        <div class="headerBou w1200">
+            <img class="logo" src="img/balance/serveDh.png" alt="" width="381" height="71">
+            <div class="fr searchDiv">
+                <form action="" class="searchDiv_form">
+                    <input class="keyword_lf fl bor_none" type="text" value="输入关键字">
+                    <input class="keyword_ri fr curaor_pointer bor_none" type="submit" title="搜索" value="">
+                </form>
+                <ul class="keyword_word">
+                    <li>热搜关键词：</li>
+                    <li><a href="javascript:0">金吉星机油</a></li>
+                    <li><a href="javascript:0">工作手套</a></li>
+                    <li><a href="javascript:0">POLO衫</a></li>
+                </ul>
+            </div>
+        </div> 
+        <div class="headerMeu">
+            <div class="w1200">
+                <div class="pinDao">
+                    <p class="city_p">
+                        <img src="img/balance/frequeL1.png" alt="" width="29" height="21">
+                        <a href="javascript:0">城频道分类</a>
+                    </p>
+                    <ul class="channelMall">
+                        <li>
+                            <img src="img/balance/frequeL2.png" alt="">
+                            <a href="javascript:0">家居生活</a>
+                            <span class="ml_10 colorFff">></span>
+                        </li>
+                        <li>
+                            <img src="img/balance/frequeL3.png" alt="">
+                            <a href="javascript:0">汽车养护</a>
+                            <span class="ml_10 colorFff">></span>
+                        </li>
+                        <li>
+                            <img src="img/balance/frequeL4.png" alt="">
+                            <a href="javascript:0">我要服务</a>
+                            <span class="ml_10 colorFff">></span>
+                        </li>
+                        <li class="ts tc pa">
+                            <img src="img/balance/doubleR.png" width="31" height="38" alt="">
+                            <a href="javascript:0">分公司查询登陆</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="headerMeu_ul">
+                    <li>
+                        <img src="img/balance/indMenuBg.png" alt="">
+                        <a href="javascript:0">首页</a>
+                    </li>
+                    <li><a href="javascript:0">活动机制</a></li>
+                    <li><a href="javascript:0">下单流程</a></li>
+                    <li><a href="javascript:0">质保机制</a></li>
+                    <li><a href="javascript:0">服务中心</a></li>
+                    <li><a href="javascript:0">订单中心</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    <!-- content -->
+    <div class="content w1200">
+        <p class="navCrumbs_p">您当前的位置：<a href="javascript:0"></a> 首页 > 购物车</p>
+        <p class="conBanner mt25"><img src="img/orderEnd/conBanner.png" alt=""></p>
+        <p class="table_name colorFff">产品列表</p>
+        <div class="sectPx"> <!-- 全选 -->
+            <p class="sect_checkAll ml_10 fl"><input class="selectAll curaor_pointer" type="checkbox" name="name" id=""><label for="">全选</label></p>
+            <span class="clean_shop curaor_pointer fr"></span>  <!-- 清除购物车 -->
+        </div>
+        <div class="commodity">
+            <table class="cartTable">
+                <tr class="cartTable_tit">
+                    <th class="colorFff tc">商品名称</th>
+                    <th class="colorFff tc">积分</th>
+                    <th class="colorFff tc">数量</th>
+                    <th class="colorFff tc">小计</th>
+                    <th class="colorFff tc">规则备注</th>
+                    <th class="colorFff tc">操作</th>
+                </tr>
+                <tr id="" class="shop_sp">  <!-- 商品 -->
+                    <td class="pb15 pt15 f14"> <!-- 单选商品 -->
+                        <input class="box curaor_pointer mt40 ml_10 mr_10 fl" type="checkbox" name="dax" id="">
+                        <a class="curaor_pointer fl" href="javascript:0">
+                            <img src="img/shop_cart/products3.png" alt="" width="90" height="90">
+                        </a>
+                        <span class="descriPtion_span ml_10 f14 fl">泊尔双胆正品</span>
+                    </td>
+                    <td class="dj tc f14"><span class="price">52.00</span></td>  <!-- 单件商品积分 -->
+                    <td class="tc sl">  <!-- 数量加减 -->
+                        <div class="cartNum">
+                            <input class="reduce curaor_pointer inpNumber f16" type="button" value="-" disabled>
+                            <input class="textNum f16 cc_digital tc" type="text" value="1" maxlength="3">
+                            <input class="add curaor_pointer inpNumber colorFC0C0C f16" type="button" value="+">
+                        </div>
+                    </td>
+                    <td class="xj tc f14"><span class="xiaoji">52.00</span>积分</td> <!-- 商品小计积分-->
+                    <td class="tc f14">5L白色</td>
+                    <td class="tc f14" ><span class="delOne curaor_pointer">删除</span></td>
+                </tr>
+                <tr id="" class="shop_sp">  <!-- 商品 -->
+                    <td class="pb15 pt15 f14"> <!-- 单选商品 -->
+                        <input class="box curaor_pointer mt40 ml_10 mr_10 fl" type="checkbox" name="dax" id="">
+                        <a class="curaor_pointer fl" href="javascript:0">
+                            <img src="img/shop_cart/products7.png" alt="" width="90" height="90">
+                        </a>
+                        <span class="descriPtion_span ml_10 f14 fl">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器携式音箱SBM100 </span>
+                    </td>
+                    <td class="dj tc f14"><span class="price">82.00</span></td>  <!-- 单件商品积分 -->
+                    <td class="tc">  <!-- 数量加减 -->
+                        <div class="cartNum">
+                            <input class="reduce curaor_pointer inpNumber f16" type="button" value="-" disabled>
+                            <input class="textNum f16 cc_digital tc" type="text" value="1" maxlength="3">
+                            <input class="add curaor_pointer inpNumber colorFC0C0C f16" type="button" value="+">
+                        </div>
+                    </td>
+                    <td class="xj tc f14"><span class="xiaoji">82.00</span>积分</td> <!-- 商品小计积分-->
+                    <td class="tc f14">直径28cm 、黑色</td>
+                    <td class="tc f14" ><span class="delOne curaor_pointer">删除</span></td>
+                </tr>
+                <tr id="" class="shop_sp">  <!-- 商品 -->
+                    <td class="pb15 pt15 f14"> <!-- 单选商品 -->
+                        <input class="box curaor_pointer mt40 ml_10 mr_10 fl" type="checkbox" name="dax" id="">
+                        <a class="curaor_pointer fl" href="javascript:0">
+                            <img src="img/shop_cart/products2.png" alt="" width="90" height="90">
+                        </a>
+                        <span class="descriPtion_span ml_10 f14 fl">便携式音箱SBM100 三种色系丰富视觉选择 wOOx扬声器</span>
+                    </td>
+                    <td class="dj tc f14"><span class="price">82.00</span></td>  <!-- 单件商品积分 -->
+                    <td class="tc">  <!-- 数量加减 -->
+                        <div class="cartNum">
+                            <input class="reduce curaor_pointer inpNumber f16" type="button" value="-" disabled>
+                            <input class="textNum f16 cc_digital tc" type="text" value="1" maxlength="3">
+                            <input class="add curaor_pointer inpNumber colorFC0C0C f16" type="button" value="+">
+                        </div>
+                    </td>
+                    <td class="tc f14"><span class="xiaoji">82.00</span>积分</td> <!-- 商品小计积分-->
+                    <td class="tc f14">直径28cm 、黑色</td>
+                    <td class="tc f14" ><span class="delOne curaor_pointer">删除</span></td>
+                </tr>
+                <tr>
+                    <td class="gwOpera f14" colspan="6">
+                        <input class="selectAll ml_10 mr_10 curaor_pointer fl" type="checkbox" name="" id="" name="quanXuan">
+                        <label class="fl" for="">全选</label>
+                        <span class="delAll curaor_pointer ml_30 fl">删除</span>
+                        <div class="fr mr_10">
+                            <p class="mr40 fl">已选商品<span class="zsl colorFC0C0C f16 fb">0</span>件</p>
+                            <p class="mr40 fl">已选商品总额：<span class="colorFC0C0C f16 fb"><em class="heji fb">0</em>积分</span></p>
+                            <p class="fl">账户余额：<span  class="colorFC0C0C f16 fb"><em class="fb">278.00</em>积分</span></p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <div class="immedOrder">
+                <a class="shopA fl" href=""></a>
+                <a class="learingA fr" href=""></a>
+            </div>
+        </div>
+       
+    </div>
+    <!-- footer -->
+    <div class="footer tc">
+        <div class="footer_bg">
+            <img src="img/foorterImg.jpg" alt="" width="850" height="135">
+        </div>
+        <div class="footer_nav tc">
+            <ul>
+                <li><a href="#">订单帮助</a></li>
+                <li><a href="#">礼品售后</a></li>
+                <li><a href="#">投诉说明</a></li>
+                <li><a href="#">法律声明</a></li>
+                <li><a href="#">友情链接</a></li>                                                                                      
+            </ul>
+            <p class="footer_xz">版权所有&nbsp;&nbsp;沪ICP备12038387号</p>
+        </div>
+    </div>
+    
+</body>
+</html>

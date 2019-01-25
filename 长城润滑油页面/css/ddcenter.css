@@ -1,0 +1,101 @@
+.commodity{
+    border: solid 1px #BBB4B4;
+    padding: 8px 0 5px 8px
+}
+.table_name{
+    height: 34px;
+    width: 70px;
+    line-height: 34px;
+    padding: 0 25px;
+    background-color: #005BAA;
+}
+.ddSs{
+    width: 330px;
+    height: 31px;
+    line-height: 31px;
+    background: url(../img/cc_formOrder.jpg) no-repeat;
+}
+.ddSs input:first-child{
+    width: 240px;
+    height: 28px;
+    line-height: 31px;
+    font-size: 14px;
+    color: #bfbdb8;
+    margin-left: 1px;
+}
+.ddRq{
+    height: 31px;
+    line-height: 31px;
+}
+.cjData{
+    width: 155px;
+    height: 25px;
+    line-height: 25px;
+    border: solid 1px #B8B8B8;
+    padding: 0 5px;
+    color: #2a2a21;
+}
+.cartTable_tit{
+    height: 32px;
+    line-height: 32px;
+}
+.cartTable_tit li{
+    float: left;
+    background-color: #999;
+    border: solid 1px #ccc;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+}
+.cartTable_tit li:first-child{
+    width: 300px;
+}
+.cartTable_tit li:nth-child(2){
+    width: 155px;
+}
+.cartTable_tit li:nth-child(3){
+    width: 170px;
+}
+.cartTable_tit li:nth-child(4){
+    width: 150px;
+}
+.cartTable_tit li:nth-child(5){
+    width: 195px;
+}
+.cartTable_tit li:nth-child(6){
+    width: 200px;
+}
+/* 订单编号 */
+.ddBh_sp{
+    background-color: #DEDFDF;
+    height: 35px;
+    line-height: 35px;
+}
+.qZf{
+    height: 27px;
+    line-height: 27px;
+    background-color: #005BAC;
+    padding: 0 10px;
+    margin-top: 5px;
+} 
+.sp td:nth-child(2){
+    width: 156px;
+}
+.sp td:nth-child(3){
+    width: 173px;
+}
+.sp td:nth-child(4){
+    width: 160px;
+}
+.sp td:nth-child(5){
+    width: 195px;
+}
+.sp td:nth-child(6){
+    width: 205px;
+}
+.descriPtion_span {
+    width: 170px;
+    max-height: 67px;
+    overflow: hidden;
+    margin-top: 15px;
+}  

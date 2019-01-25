@@ -1,0 +1,46 @@
+.footer{
+   clear: both;
+}
+.footer_bg{
+    width: 1200px;
+    margin: 30px auto 0 auto;
+}
+.footer_nav{
+    margin-top: 30px;
+    height: 123px;
+    background-color: #999;
+}
+.footer_nav ul{
+    width: 1200px;
+    padding-top: 35px;
+    margin: 0 auto;
+}
+.footer_nav ul li{
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    width: 135px;
+    border-right: 2px #fff solid;
+}
+.footer_nav ul li:last-child{
+    border-right: none;
+}
+.footer_nav ul li a{
+    color: #fff;
+}
+.footer_xz{
+    margin-top: 25px;
+    color: #fff;
+} 
+/* backToTop 返回顶部*/
+.backToTop{
+    display: none;
+    background: url(../img/balance/result-top-btn.png) no-repeat;
+    width: 70px;
+    height: 65px;
+    position: fixed;
+    right: 50px;
+    bottom: 180px;
+    cursor: pointer;
+}
+

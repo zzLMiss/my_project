@@ -1,0 +1,126 @@
+/*fangdaJing  */
+.detailsCon_L{ 
+    width: 450px;
+}
+.detailsCon_R{  
+    width: 558px;
+    overflow: hidden;
+}
+.xl_select{
+    width: 80px;
+    height: 25px;
+}
+.spec_p span{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    border: 1px solid #000;
+    line-height: 25px;
+}
+.number_p{
+    line-height: 25px;
+}
+.put_div{
+    width: 120px;
+    height: 25px;
+    border: 1px solid #000;
+}
+.put_div input{
+    background: none;
+    border: 0; 
+    height: 25px; 
+    border-right: 1px solid #000; 
+    text-align: center;
+    line-height: 25px;
+}
+.put_div input:last-child{
+    border-right:none;
+}
+.put_div .add_j{
+    width: 34px;
+}
+.put_div .input_number{
+    width: 50px;
+}
+.shop_div a{
+    display: inline-block;
+    width: 128px;
+    line-height: 46px;
+}
+.share_div a{
+    display: inline-block;
+    width: 80px;
+    line-height: 40px;
+    border: 1px solid #000;
+    text-decoration: none;
+}
+.ban_contentL{
+    width: 300px;
+}
+.share_div .icon{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    vertical-align: middle;
+    margin-top: -1px;
+}
+.share_div .like_active{
+    color: red;
+}
+.share_div .like_active .i_active{
+    background: url(../images/coll_active.png) no-repeat;
+}
+.share_div .like_sc i{
+    background: #fff url(../images/coll.png) no-repeat;
+}
+.share_div .share_a i{
+    width: 20px;
+    height: 20px;
+    background: url(../images/share.png) no-repeat;
+}
+
+/*爆款推荐  */
+.bk_title{
+    background: #f6f6f6;
+    width: 260px;
+}
+.bk_title span,.bk_title a{
+    line-height: 50px;
+}
+.bk_content{
+    width: 298px;
+    border-bottom: 1px solid #f6f6f6;
+    border-left: 1px solid #f6f6f6;
+    border-right: 1px solid #f6f6f6;
+}
+.like_cont ul li{
+    float: left;
+    border-bottom: 1px solid #f6f6f6;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.zj_cont ul li{
+    margin-top: 20px;
+}
+.ban_contentR{
+    width: 810px;
+}
+.bk_titleR{
+    background: #f6f6f6;
+    line-height: 50px;
+}
+.bk_titleR span{
+    width: 120px;
+    height: 45px;
+    background: #f6f6f6;
+}
+.bk_titleR span.span_bkXy{
+    border-top: 2px solid #ff9625;
+    background: #fff;
+}
+.bk_contentR{
+    width: 808px;
+}
+
+
+

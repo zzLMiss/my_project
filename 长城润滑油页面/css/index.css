@@ -1,0 +1,213 @@
+/* 头部修改加购物车以及hover定型 */
+.ccNavigation_div{
+    background: url(../img/index/ccNavigation_div.png) no-repeat left center;
+    padding-left: 45px;
+    right: 70px;
+    height: 40px;
+}
+.ccNavigation_div a{
+    font-size: 18px;
+    color: #FCD000;
+}
+/* 幻灯片 */
+.screen-slider .slides{
+    width: 100%;
+    height: 457px;
+}
+.slides li:first-child{
+    width: 100%;
+    height: 100%;
+    background: url(../img/index/ZlhdpLi_noe.jpg) center top;
+}
+.slides li:last-child{
+    width: 100%;
+    height: 100%;
+    background: url(../img/index/ZlhdpLi_tow.jpg) center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+/* 小圆点 */
+.circle{
+    bottom: 15px;
+    left: 50%;
+}
+.circle li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #393E3A;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.circle li.cur{
+    background: #B51A28;
+}
+/* 中间内容 */
+.di{
+    width: 100%;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+/* 版心 */
+.left_content{
+    width: 937px;
+}
+/* 版心左 */
+.lf_header{
+    line-height: 35px;
+    height: 35px;
+    background: url(../img/index/Fboutique.png) repeat-x bottom;
+}
+.lf_header h2{
+    border-bottom: 3px solid #0773D3;
+    height: 37px;
+}
+.lf_header h2 span{
+    width: 28px;
+    height: 25px;
+    background: url(../img/index/Fbou.png) no-repeat;
+    padding-left: 3px;
+}
+/* 第一组 */
+.wbl{
+    width: 663px;
+    height: 280px;
+    background: #fff;
+}
+.di a:hover{
+    text-decoration: none;
+}
+.ip{
+    width: 250px;
+    height: 280px;
+}
+.ip span{
+    width: 100%;
+}
+.three div{
+    width: 300px;
+    height: 285px;
+    margin-right: 15px;
+    background: #fff;
+    float: left;
+}
+.three div:last-child{
+    margin-right: 0;
+}
+.three div span{
+    width: 100%;
+}
+/* 第二组 */
+.bestSellersD{
+    width: 400px;
+    height: 510px;
+}
+span{
+    width: 100%;
+}
+.bestSellersX {
+    width: 535px;
+}
+.bestSellersX div{
+    width: 255px;
+    height: 251px;
+    margin-left: 10px;
+}
+.borEAE6E6 {
+    border: solid 1px #EAE6E6;
+}
+.right_content{
+    width: 252px;
+}
+.ranking_h4 {
+    height: 36px;
+    line-height: 36px;
+    background-color: #0773D3;
+    padding: 0 15px;
+}
+.shpTop,.newGg{
+    margin-left: 12px;
+}
+.shpTop li{
+    margin-top: 18px;
+    float: left;
+}
+.shpTop li .xlh{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background-color: #1558A1;
+    margin-top: 2px;
+}
+.shpTop li .spName{
+    width: 126px;
+    height: 16px;
+}
+.spHover{
+    margin-left: -22px;
+    display: none;
+}
+.spHover p{
+    width: 145px;
+}
+/*新闻公告  */
+.newGg li{
+    background: url(../img/index/ddH.png) no-repeat 0 18px;
+    padding-left: 10px;
+    line-height:240%;
+}
+/* 飘窗 piaoChuang */
+.cc_Tg{
+    background:url(../img/index/jiFen_tz.png) no-repeat;    
+    width: 180px;
+    height: 131px;
+    position:absolute;
+    top: 250px; 
+    right: 10px;
+    z-index:111;
+}
+.cc_backBg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/index/blackBg.png);
+    z-index: 111;
+    display: none;
+}
+/* 弹框 */
+.cc_tck{
+    background-color: #FFFFFF;
+    width: 685px;
+    height: 325px;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    border: solid 5px #ECEFF1;
+    display: none;
+}
+.cc_close{
+    width: 22px;
+    height: 21px;
+    background: url(../img/index/closeSpan.jpg) no-repeat;
+    top: 15px;
+    right: 15px;
+}
+
+
+
+
+

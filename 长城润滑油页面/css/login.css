@@ -1,0 +1,113 @@
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    overflow: hidden;
+}
+.header img{
+    float: left;
+    margin-left: 60px;
+    width: 380px;
+    height: 40px;
+}
+.header h3{
+    float: left;
+    margin-left: 75px;
+    color: #e60012;
+    font-size: 30px;
+}
+.content{
+    clear: both;
+    margin-top: 25px;
+    background-color: #A40007;
+    height: 537px;
+}
+.content_bg{
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    background: url(../img/loginBg.png) no-repeat; 
+}
+.white_bg{
+    width: 354px;
+    height: 425px;
+    background: #fff;
+    margin-right: 50px;
+    margin-top: 50px;
+    float: right;
+}
+.white_bg h4{
+    clear: both;
+    color: #666;
+    margin: 35px 0 0 35px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.login_user{
+    width: 284px;
+    height: 40px;
+    margin: 33px auto 0 auto;
+    background: url(../img/loginNum.png) no-repeat;
+}
+.input01{
+    margin-left: 40px;
+    width: 233px;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 1px;
+    border: none;
+    background-color: #fff;
+    padding-left: 10px;
+}
+/* .input01:focus{
+    background-color:#FDF6C8;
+} */
+.login_pass{
+    width: 284px;
+    height: 40px;
+    margin: 20px auto 0 auto;
+    background: url(../img/loginPass.png)no-repeat;
+    margin-bottom: 10px;
+}
+.login_rem{
+    padding-left: 35px;
+    padding-right: 35px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.login_rem label input{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    cursor: pointer;
+}
+.login_rem .zd_login{
+    margin-left: 5px;
+} 
+.font_si{
+    font-size: 14px;
+    color: #666;
+    font-family: "宋体";
+} 
+.login_rem .wj{
+    float: right;
+}
+.login_tx{
+    display: block;
+    margin: 35px auto 0 auto;
+}
+.va,.va02{
+    font-size: 12px;
+    color: #eb340c;
+    font-family: '黑体';
+    margin-left: 45px;
+    display: none;
+}
+
+.logo_anniu{
+    width: 288px;
+    height: 55px;
+    background: url(../img/loginAniu.png) no-repeat;
+    cursor: pointer;
+    margin: 30px auto 0 auto;
+}

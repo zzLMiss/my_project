@@ -1,0 +1,47 @@
+.us_contentL{
+    width: 535px;
+}
+.news_div{
+    width: 450px;
+}
+.dw{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.news_ul li{
+    float: left;
+    margin-bottom: 20px;
+}
+.news_ul02 li{
+    overflow: hidden;
+    line-height: 50px;
+    border-bottom: 1px dotted #eaeaea;
+}
+.us_contentR{
+    width:540px;
+}
+.news_ul03 li{
+    width: 100%;
+    height: 104px;
+    background: #f6f6f6;
+}
+.new03_div{
+    width:350px;
+    margin-top: 10px;
+}
+/* 扶贫商品 */
+.fp_p{
+    background: url(../images/relief_project/new03.png) no-repeat center;
+}
+.ewm_img{
+    bottom: 0;
+    right: 0;
+}
+.fpSp_div{
+    margin-right: -10px;
+}
+.fpSp_div div{
+    margin-right: 10px;
+    margin-bottom: 25px;
+}

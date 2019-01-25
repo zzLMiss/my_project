@@ -1,0 +1,106 @@
+.us_contentL{  /* 联系我们 */
+    width: 500px;
+}
+.phone,.phone2{
+    line-height: 32px;
+}
+.phone i{
+    width: 32px;
+    height: 32px;
+    background:url(../images/relief_project/iconUs_01.png) no-repeat top;
+    vertical-align: middle;
+}
+.phone2 i{
+    width: 32px;
+    height: 32px;
+    background:url(../images/relief_project/iconUs_01.png) no-repeat bottom;
+    vertical-align: middle;
+}
+.us_contentR{
+    width: 490px;
+}
+.us_contentR input{
+    width: 468px;
+    border: 1px solid #eaeaea;
+}
+.us_contentR p{
+    text-align: left;
+    margin-left: 5px;
+}
+.name_put{
+    height: 38px;
+}
+.xinXi_put{
+    height: 98px;
+}
+.sub{
+    width: 140px;
+    line-height: 40px;
+    background: #f6f6f6;
+}
+
+/* 特色产品 */
+.main_ts{
+    width: 1070px;
+    border: 1px solid #eaeaea;
+}
+.nav_ts{
+    border-bottom: 1px solid #eaeaea;
+    line-height: 55px;
+}
+.nav_tsUL li{
+    float: left;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.price_tsLi input{
+    border: none;
+    height: 30px;
+    width: 60px;
+    background: #eaeaea;
+    padding: 0 5px;
+}
+/* 商品shangpin */
+.sp_js {
+    width: 250px;
+    margin: 30px 22px 0 0;
+}
+.sp_js a{
+    display: block;
+    text-align: center;
+}
+.sp_lb{
+    margin-right: -20px;
+}
+/* 分页 page */
+.Page_div {
+    clear: both;
+    height: 30px;
+    line-height: 30px;
+}
+.pageYs a{
+    float: left;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.pageYs .bor_page{
+    border: solid 1px #CECECE;
+    width: 30px;
+    text-align: center;
+}
+.page_sx{
+    width: 70px;
+}
+.find_page .xuZe{
+    float: left;
+    border: solid 1px #eee;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    color: #666;
+}
+.anNsub{
+    line-height: 30px;
+}
